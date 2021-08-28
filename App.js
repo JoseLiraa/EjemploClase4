@@ -14,28 +14,28 @@ export default function App() {
     var a = parseFloat(var1);
     var b= parseFloat(var2);
     var c= a+b;
-    var resulSumar="El resultado de la suma es de:"+a+"+"+b+"="+c;
+    var resulSumar="La suma de:"+a+"+"+b+"="+c;
     setresultadoSuma(resulSumar);
   }
    function Restar(var1:any,var2:any){
     var a = parseFloat(var1);
     var b= parseFloat(var2);
     var c= a-b;
-    var resulRestar="El resultado de la resta es de:"+a+"-"+b+"="+c;
+    var resulRestar="La resta de:"+a+"-"+b+"="+c;
     setresultadoRest(resulRestar);
   }
    function Multiplicar(var1:any,var2:any){
     var a = parseFloat(var1);
     var b= parseFloat(var2);
     var c= a*b;
-    var resulMulti="El resultado de la multiplicación es de:"+a+"x"+b+"="+c;
+    var resulMulti="La multiplicación de:"+a+"x"+b+"="+c;
     setresultadoMulti(resulMulti);
   }
    function Dividir(var1:any,var2:any){
     var a = parseFloat(var1);
     var b= parseFloat(var2);
     var c= a/b;
-    var resulDivi="El resultado de la divisón es de:"+a+"/"+b+"="+c;
+    var resulDivi="La divisón de:"+a+"/"+b+"="+c;
     setresultadoDivi(resulDivi);
   }
 
